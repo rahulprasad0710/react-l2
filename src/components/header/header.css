@@ -1,0 +1,9 @@
+.navbar {
+    min-height: 70px;
+    color: aliceblue;
+    background-color: #41e86a;
+}
+
+.navbar .heading {
+    background-color: #417ee8;
+}
