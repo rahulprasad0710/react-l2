@@ -1,9 +1,13 @@
-import Home from "./components/bootstrapFIles/Home";
+// import Home from "./components/bootstrapFIles/Home";
+import ProductAll from "./components/products/ProductAll";
+import Products from "./components/products/Products";
 
 function App() {
     return (
         <div className='App'>
-            <Home />
+            {/* <Home /> */}
+            {/* <Products />     */}
+            <ProductAll />
         </div>
     );
 }
