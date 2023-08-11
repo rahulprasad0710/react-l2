@@ -18,6 +18,10 @@ const Hook1 = () => {
         setQuantity(quantity - 1);
     };
 
+    const handleReset = () => {
+        setQuantity(1);
+    };
+
     return (
         <div>
             <div className='container'>
@@ -43,6 +47,9 @@ const Hook1 = () => {
                         +
                     </button>
                 </div>
+                <button className='btn btn-info btn-sm' onClick={handleReset}>
+                    Reset
+                </button>
             </div>
         </div>
     );
